@@ -14,6 +14,7 @@ alias fb="cb | grep"
 alias ls="ls -G"
 alias cls="clear; ls"
 alias clr="clear; ls -a"
+alias cla="clr"
 
 ########## Navigation ##########
 alias ..='cd ..'
