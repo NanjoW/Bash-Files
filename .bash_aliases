@@ -9,6 +9,7 @@ alias sb="source ~/.bash_aliases"
 alias eb="vim ~/.bash_aliases"
 alias cb="cat ~/.bash_aliases"
 alias fb="cb | grep"
+alias pushbash="cd ~/Projects/Bash-Files; git add .; git commit -m \"auto generated\"; git push; cd -;"
 
 ########## LS ##########
 alias ls="ls -G"
