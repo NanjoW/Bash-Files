@@ -8,8 +8,15 @@ alias gcb="git checkout -b"
 alias sb="source ~/.bash_aliases"
 alias eb="vim ~/.bash_aliases"
 alias cb="cat ~/.bash_aliases"
+alias fb="cb | grep"
 
 ########## LS ##########
 alias ls="ls -G"
 alias cls="clear; ls"
 alias clr="clear; ls -a"
+
+########## Navigation ##########
+alias ..='cd ..'
+alias ...='cd ../..'
+alias ....='cd ../../..'
+alias ~='cd ~'
